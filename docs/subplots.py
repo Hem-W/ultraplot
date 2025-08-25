@@ -46,10 +46,10 @@
 # ------------
 #
 # UltraPlot can quickly add labels to subplots using the `abc` parameter. This parameter
-# can be used as a template to format the subplot labels, such as "A.", which assigns
+# can be a template (with a letter "a" or "A") used to format the subplot labels, such as "A.", which assigns
 # an alphabetic label based on the axis number. Alternatively, you can pass a list to
-# the `abc` parameter, which will use the corresponding list elements as labels for
-# the subplots. If you add subplots one-by-one with :func:`~ultraplot.figure.Figure.add_subplot`,
+# the `abc` parameter, where the list elements are mapped as labels for the subplots one by one.
+# If you add subplots one-by-one with :func:`~ultraplot.figure.Figure.add_subplot`,
 # you can manually specify the number with the `number` keyword. By default, the subplot
 # number is incremented by ``1`` each time you call :func:`~ultraplot.figure.Figure.add_subplot`.
 # If you draw all of your subplots at once with :func:`~ultraplot.figure.Figure.add_subplots`,
